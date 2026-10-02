@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Currículo Web de Cassio Expedito Silva Pena">
+    <meta name="author" content="Cassio Expedito Silva Pena">
+    <meta name="keywords" content="Engenharia de Software, HTML5, CSS3, JavaScript, Cassio Pena">
+    <title>Currículo - Cassio Expedito Silva Pena</title>
+    <link rel="stylesheet" href="style.css">
+    <base href="./">
+    <noscript>
+        <p>Aviso: Para uma melhor experiência, ative o JavaScript no seu navegador.</p>
+    </noscript>
+</head>
+<body>
+
+    <!-- Container Principal do Currículo -->
+    <div class="curriculo">
+
+        <!-- Barra de Navegação Superior -->
+        <nav>
+            <p>
+                <a href="#resumo" title="Ir para o Resumo">Resumo</a> | 
+                <a href="#formacao" title="Ir para Formação">Formação</a> | 
+                <a href="#habilidades" title="Ir para Habilidades">Habilidades</a> | 
+                <a href="#experiencia" title="Ir para Experiência">Experiência</a> | 
+                <a href="#interativo" title="Ir para Mídias e Interações">Interativo</a> | 
+                <a href="contato.html" title="Página de Contato">Contato</a>
+            </p>
+        </nav>
+
+        <!-- Cabeçalho Principal -->
+        <header>
+            <h1>Cassio Expedito Silva Pena</h1>
+
+            <!-- Elemento Figure com Imagem e Legenda -->
+            <figure>
+                <picture>
+                    <source srcset="kkk.jpg" type="image/jpeg">
+                    <img src="sua-foto.jpg" alt="Foto de Perfil de Cassio Expedito" width="130" height="160" loading="lazy">
+                </picture>
+                <figcaption>Desenvolvedor Frontend &amp; Estudante de Engenharia de Software</figcaption>
+            </figure>
+
+            <!-- Caixa de Informações de Contato com Address -->
+            <div class="contato-box">
+                <address>
+                    📧 <a href="mailto:cassio.silva2308@gmail.com">cassio.silva2308@gmail.com</a> | 
+                    📱 <a href="tel:91992956247">(91) 99295-6247</a> | 
+                    📍 Belém, Pará | 
+                    💻 <a href="https://github.com/cassiosilva2308-del" target="_blank" rel="noopener">GitHub</a>
+                </address>
+            </div>
+        </header>
+
+        <hr>
+
+        <!-- Conteúdo Principal -->
+        <main>
+
+            <!-- Seção Resumo Profissional -->
+            <article id="resumo">
+                <section>
+                    <h2>Resumo Profissional</h2>
+                    <p>
+                        Estudante focado em <mark>desenvolvimento web frontend</mark> e arquitetura de código limpo. 
+                        Dedicado ao estudo de padrões modernos de interface, buscando criar soluções semânticas, 
+                        acessíveis e de alta performance para o usuário final.
+                    </p>
+                    <blockquote cite="https://en.wikipedia.org/wiki/KISS_principle">
+                        <p><q>Simplicidade é o último grau de sofisticação.</q> — <cite>Leonardo da Vinci</cite></p>
+                    </blockquote>
+                </section>
+            </article>
+
+            <!-- Seção Formação Acadêmica -->
+            <section id="formacao">
+                <h2>Formação Acadêmica</h2>
+                <ol>
+                    <li>
+                        <strong>Bacharelado em Engenharia de Software</strong><br>
+                        Instituição: <a href="https://uepa.br" target="_blank" rel="noopener"><abbr title="Universidade do Estado do Pará">UEPA</abbr> Ananindeua - Campus XXII</a><br>
+                        Período: <time datetime="2026-02">2026</time> &ndash; <time datetime="2031-12">2031</time>
+                    </li>
+                    <li>
+                        <strong>Ensino Médio Completo</strong><br>
+                        Instituição: Colégio Atitude<br>
+                        Conclusão: <time datetime="2024">2024</time>
+                    </li>
+                </ol>
+            </section>
+
+            <!-- Seção Habilidades e Níveis de Domínio -->
+            <section id="habilidades">
+                <h2>Habilidades Técnicas &amp; Ferramentas</h2>
+
+                <!-- Lista de Definição -->
+                <dl>
+                    <dt><dfn><abbr title="HyperText Markup Language">HTML5</abbr></dfn></dt>
+                    <dd>Estruturação semântica de páginas e garantia de acessibilidade <abbr title="Accessible Rich Internet Applications">ARIA</abbr>.</dd>
+
+                    <dt><dfn><abbr title="Cascading Style Sheets">CSS3</abbr></dfn></dt>
+                    <dd>Estilização responsiva, layout escuro (dark mode) e animações visuais.</dd>
+
+                    <dt><dfn>Lógica de Programação</dfn></dt>
+                    <dd>Construção de algoritmos usando <code>C</code> e <code>JavaScript</code>.</dd>
+                </dl>
+
+                <h3>Nível de Fluência Técnica</h3>
+                <p>
+                    <label for="p-html">HTML / CSS:</label>
+                    <progress id="p-html" value="85" max="100">85%</progress>
+                </p>
+                <p>
+                    <label for="m-js">JavaScript:</label>
+                    <meter id="m-js" value="0.6" min="0" max="1" low="0.3" high="0.7" optimum="0.9">60%</meter>
+                </p>
+
+                <p>Ambiente e Atalhos: Desenvolvido no editor <kbd>VS Code</kbd> utilizando o compilador <samp>GCC</samp> para rotinas em <code>C</code>.</p>
+            </section>
+
+            <!-- Seção Experiência Profissional com Tabela Completa -->
+            <section id="experiencia">
+                <h2>Histórico de Experiência</h2>
+                <table>
+                    <caption>Resumo das Atividades Acadêmicas e Profissionais</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Instituição</th>
+                            <th scope="col">Cargo / Função</th>
+                            <th scope="col">Ano</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="https://uepa.br" target="_blank" rel="noopener"><abbr title="Universidade do Estado do Pará">UEPA</abbr></a></td>
+                            <td>Monitor de Programação Web</td>
+                            <td><time datetime="2026">2026</time></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Disponível para novos projetos e oportunidades de estágio.</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <br>
+                <p><a href="experiencia.html" title="Detalhes da Experiência">Veja as experiências profissionais em detalhes &rarr;</a></p>
+            </section>
+
+            <!-- Seção Interativa (Mídias, Elementos Retráteis e Formulário) -->
+            <section id="interativo">
+                <h2>Recursos Adicionais &amp; Interações</h2>
+
+                <!-- Caixa Retrátil -->
+                <details>
+                    <summary>Clique para expandir informações sobre idiomas e revisão de código</summary>
+                    <ul>
+                        <li>Português: <del>Intermediário</del> <ins>Nativo</ins></li>
+                        <li>Inglês: <em>Técnico / Leitura de Documentação</em></li>
+                        <li>Fórmula de Eficiência de Código: <var>E</var> = <var>m</var> &middot; <var>c</var><sup>2</sup> (Conceito)</li>
+                        <li>Fórmula Química da Água no Laboratório: H<sub>2</sub>O</li>
+                    </ul>
+                </details>
+
+                <br>
+
+                <!-- Bloco de Código Pré-formatado -->
+                <h3>Amostra de Algoritmo em C</h3>
+                <pre><code>#include &lt;stdio.h&gt;
+
+int main() {
+    printf("Olá, Mundo Web!\n");
+    return 0;
+}</code></pre>
+
+                <!-- Mini Formulário Interno com Fieldset e Select -->
+                <form action="contato.html" method="GET">
+                    <fieldset>
+                        <legend>Envio Rápido de Feedback</legend>
+                        <p>
+                            <label for="assunto">Selecione o Assunto:</label>
+                            <select id="assunto" name="assunto">
+                                <optgroup label="Profissional">
+                                    <option value="recrutamento" selected>Recrutamento / Vaga</option>
+                                    <option value="freelance">Projeto Freelancer</option>
+                                </optgroup>
+                                <optgroup label="Outros">
+                                    <option value="duvida">Dúvidas sobre o Código</option>
+                                </optgroup>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="nivel">Sua Nota para este Currículo:</label>
+                            <input type="range" id="nivel" name="nivel" min="1" max="10" value="10">
+                        </p>
+                        <p>
+                            <button type="submit">Acessar Formulário Completo</button>
+                        </p>
+                    </fieldset>
+                </form>
+
+                <br>
+
+                <!-- Inserção de Vídeo via iframe -->
+                <h3>Vídeo aleatorio</h3>
+                <iframe 
+                    width="100%" 
+                    height="315" 
+                    src="https://www.youtube.com/watch?v=LPjxaRv_9Xw" 
+                    title="Vídeo de Apresentação" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </section>
+
+        </main>
+
+        <hr>
+
+        <!-- Rodapé do Documento -->
+        <footer>
+            <p>
+                <small>&copy; <time datetime="2026">2026</time> Cassio Expedito Silva Pena. Todos os direitos reservados.</small><br>
+                <small>Desenvolvido com <bdo dir="ltr">HTML5 Semântico</bdo> e <abbr title="Cascading Style Sheets">CSS3</abbr>.</small>
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
